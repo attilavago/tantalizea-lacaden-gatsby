@@ -7,6 +7,7 @@ import '../styles/index.scss';
 import SectionFull from '../components/sectionFull/sectionFull';
 import SectionHalfSplit from "../components/sectionHalfSplit/sectionHalfSplit.js";
 import SectionFullSplit from "../components/sectionFullSplit/sectionFullSplit.js";
+import Button from "../components/button/button.js";
 
 const IndexPage = ({data}) => {
     console.log(data);
@@ -36,7 +37,9 @@ const IndexPage = ({data}) => {
               articleText="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               asideImage="home-services.jpg"
               asideImageAltText="Tantalizea leaning against the wall."
-            />
+            >
+              <Link to="/portfolio">Portfolio</Link>
+            </SectionFullSplit>
         </Layout>
     )
 }

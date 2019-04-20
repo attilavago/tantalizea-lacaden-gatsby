@@ -8,6 +8,7 @@ const SectionFullSplit = (props) => {
             <>
                 <article>
                 <p>{props.articleText}</p>
+                {props.children}
                 </article>
                 <aside>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
@@ -21,6 +22,7 @@ const SectionFullSplit = (props) => {
                 </aside>
                 <article>
                 <p>{props.articleText}</p>
+                {props.children}
                 </article>
             </>
             }
