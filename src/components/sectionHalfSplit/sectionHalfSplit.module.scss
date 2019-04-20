@@ -1,0 +1,10 @@
+.sectionHalfSplit {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    max-height: 600px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
