@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import Styles from './header.module.scss';
 
 const Header = () => {
     return (
-        <header>
-            <h1><Link to="/">Tantalizea</Link></h1>
+        <header className={Styles.appHeader}>
+            <h1><Link title="Tantalizea Creative Designs" to="/"><img role="presentation" src="tantalizea-creative-designs-logo.svg" alt=""/></Link></h1>
             <nav>
                 <ul>
                     <li><Link to="/about">About</Link></li>

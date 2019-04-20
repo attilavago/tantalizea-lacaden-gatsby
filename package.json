@@ -20,9 +20,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.6.1",
+    "react-slick": "^0.24.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "prettier": "^1.17.0"
   },
   "repository": {

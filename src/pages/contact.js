@@ -6,7 +6,6 @@ const ContactPage = () => {
         <Layout>
             <h1>Contact</h1>
             <p>Contact page content...</p>
-            <p>You can find me on Twitter at <a target="_blank" href="https://twitter.com/attilavago">@attilavago</a></p>
         </Layout>
     )
 }

@@ -7,7 +7,8 @@ const SectionHalfSplit = (props) => {
             {props.textImagePosition === 'left-to-right' && 
             <>
                 <article>
-                <p>{props.articleText}</p>
+                <h2>{props.sectionTitle}</h2>
+                {props.children}
                 </article>
                 <aside>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
@@ -20,7 +21,8 @@ const SectionHalfSplit = (props) => {
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
                 <article>
-                <p>{props.articleText}</p>
+                <h2>{props.sectionTitle}</h2>
+                {props.children}
                 </article>
             </>
             }

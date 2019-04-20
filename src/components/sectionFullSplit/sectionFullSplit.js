@@ -6,22 +6,22 @@ const SectionFullSplit = (props) => {
         <section className={Styles.sectionFullSplit} style={{backgroundColor: `rgba(${props.articleBkgColourRgba})`}}>
             {props.textImagePosition === 'left-to-right' && 
             <>
-                <article>
-                <p>{props.articleText}</p>
+                <article className={props.type}>
+                <h2>{props.sectionTitle}</h2>
                 {props.children}
                 </article>
-                <aside>
+                <aside className={props.imageSize}>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
             </>
             }
             {props.textImagePosition === 'right-to-left' && 
             <>
-                <aside>
+                <aside className={props.imageSize}>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
-                <article>
-                <p>{props.articleText}</p>
+                <article className={props.type}>
+                <h2>{props.sectionTitle}</h2>
                 {props.children}
                 </article>
             </>
