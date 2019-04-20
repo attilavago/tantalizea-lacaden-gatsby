@@ -13,7 +13,7 @@ const IndexPage = ({data}) => {
     console.log(data);
     return (
         <Layout>
-            <Helmet>
+            <Helmet htmlAttributes={{ lang : 'en' }}>
                 <meta charSet="utf-8" />
                 <title>{data.site.siteMetadata.title}</title>
                 <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
