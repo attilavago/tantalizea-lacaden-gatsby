@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import '../styles/index.scss';
 import SectionFull from '../components/sectionFull/sectionFull';
 import SectionHalfSplit from "../components/sectionHalfSplit/sectionHalfSplit.js";
+import SectionFullSplit from "../components/sectionFullSplit/sectionFullSplit.js";
 
 const IndexPage = ({data}) => {
     console.log(data);
@@ -27,6 +28,13 @@ const IndexPage = ({data}) => {
               textImagePosition="left-to-right"
               articleText="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               asideImage="home-intro.jpg"
+              asideImageAltText="Tantalizea leaning against the wall."
+            />
+            <SectionFullSplit
+              articleBkgColourRgba="101,60,75,1"
+              textImagePosition="right-to-left"
+              articleText="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              asideImage="home-services.jpg"
               asideImageAltText="Tantalizea leaning against the wall."
             />
         </Layout>
