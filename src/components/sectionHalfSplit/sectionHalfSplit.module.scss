@@ -4,6 +4,12 @@
     max-height: 600px;
     min-height: 600px;
     overflow: hidden;
+    article {
+        align-self: center;
+        box-sizing: border-box;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
     aside {
         display: grid;
     }
