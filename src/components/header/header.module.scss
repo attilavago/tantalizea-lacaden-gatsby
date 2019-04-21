@@ -1,4 +1,32 @@
 .appHeader {
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 10px;
+    border-bottom: 2px solid #D0D0D0;
+    position: fixed;
+    background: white;
+    width: 100vw;
+    margin-top: -80px;
+    nav {
+        display: grid;
+        grid-auto-columns: 100%;
+        justify-items: end;
+        align-items: center;
+        ul {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            width: 400px;
+            li {
+                text-align: center;
+                list-style-type: none;
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #727374;
+                }
+            }
+        }
+    }
     img {
         width: 180px;
     }
