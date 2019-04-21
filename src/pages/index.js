@@ -17,8 +17,9 @@ const IndexPage = ({data}) => {
                 <title>{data.site.siteMetadata.title}</title>
                 <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
             </Helmet>
-            <SectionFull 
-              overlayColourRgba="255,255,255,0.5"
+            <SectionFull
+              type="light" 
+              overlayColourRgba="255,255,255,0.8"
               backgroundImageName="home-main.jpg"
               sectionTitle="making life beautiful"
               sectionBlurb="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

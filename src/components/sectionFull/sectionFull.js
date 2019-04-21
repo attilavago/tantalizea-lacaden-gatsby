@@ -7,9 +7,11 @@ const SectionFull = (props) => {
         <section 
             className={Styles.sectionFull} 
             style={{backgroundImage: ` linear-gradient(rgba(${props.overlayColourRgba}), rgba(${props.overlayColourRgba})),url(${props.backgroundImageName})`}}>
-            <h2>{props.sectionTitle}</h2>
-            <p>{props.sectionBlurb}</p>
-            <Button buttonText={props.buttonText}/>
+            <div className={props.type}>
+                <h2>{props.sectionTitle}</h2>
+                <p>{props.sectionBlurb}</p>
+                <Button buttonText={props.buttonText}/>
+            </div>
         </section>
     )
 }

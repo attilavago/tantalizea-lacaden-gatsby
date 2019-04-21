@@ -78,9 +78,27 @@ p, li {
     font-family: 'OpenSansRegular', 'sans-serif';
 }
 
+button {
+    font-family: 'OpenSansBold', 'sans-serif';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+p {
+    color: #727374;
+    margin-bottom: 20px;
+    line-height: 1.7rem;
+}
+
 h1, h2 {
     font-family: 'PlayFairItalic', 'serif';
     text-transform: capitalize;
+    color: #505152;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -88,8 +106,15 @@ h3 {
 }
 
 .light {
-    h2, p {
-        color: black;
+    p {
+        color: #727374;
+    }
+    h2 {
+        color: #505152; 
+    }
+    button {
+        background-color: #5D3E4B;
+        color: white;
     }
 }
 .dark {
