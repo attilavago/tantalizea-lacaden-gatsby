@@ -1,0 +1,8 @@
+.carousel {
+    height: 400px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    .slick-dots li.slick-active button:before {
+        color: red !important;
+    }
+}

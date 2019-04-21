@@ -1,0 +1,29 @@
+.quote {
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 300px;
+    blockquote {
+        padding-top: 80px;
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 20px;
+        font-family: 'PlayFairItalic', 'serif';
+        font-size: 1.8rem;
+        color: #727374;
+        text-align: center;
+        background: url('../../../static/home-quote-mark.png') no-repeat;
+    }
+    p {
+        text-align: center;
+    }
+    p:nth-child(2) {
+        font-family: 'OpenSansBold', 'sans-serif'; 
+        color: #505152;
+        text-transform: capitalize;
+    }
+    p:nth-child(3) {
+        font-family: 'OpenSansItalic', 'sans-serif'; 
+        text-transform: capitalize;
+        margin-top: -15px;
+    }
+}

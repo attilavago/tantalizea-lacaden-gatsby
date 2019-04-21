@@ -74,6 +74,10 @@
 }
 
 // theming specific to tantalizea.com
+html, body {
+    background-color: #FEFFFF;
+}
+
 p, li {
     font-family: 'OpenSansRegular', 'sans-serif';
 }
@@ -138,4 +142,12 @@ h3 {
 
 main {
     margin-top: 80px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: rgb(101, 60, 75) !important;
+}
+
+.slick-dots li {
+    width: 10px;
 }
