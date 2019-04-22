@@ -1,0 +1,67 @@
+.footer {
+    background: #5D3E4B;
+    display: grid;
+    grid-template-columns: 500px auto;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 67px;
+    align-content: center;
+    nav {
+        display: grid;
+        align-content: center;
+    }
+    .styledIcon {
+        background: #FEFFFF;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        display: grid;
+        box-sizing: border-box;
+        align-content: center;
+        justify-items: center;
+        color: #5D3E4B;
+        margin-right: -10px;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            float: left;
+            margin-right: 20px;
+            padding-top: 20px;
+            a {
+                color: #727374;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: 'OpenSansBold', 'sans-serif';
+                font-size: 0.7rem;
+            }
+        }
+    }
+    .copyright {
+        color: #727374;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'OpenSansBold', 'sans-serif';
+        font-size: 0.7rem;
+    }
+    .callToAction {
+        display: grid;
+        grid-template-columns: auto 150px;
+        align-items: end;
+        align-content: center;
+        button {
+            width: fit-content;
+            justify-self: end;
+        }
+        p {
+            margin-bottom: 0;
+            height: 32px;
+            color: #FEFFFF;
+            font-family: 'PlayFairItalic', 'serif';
+            text-align: right;
+            padding-right: 20px;
+            justify-self: end;
+            font-size: 1.2rem;
+        }
+    }
+}
