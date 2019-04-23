@@ -37,6 +37,7 @@ const IndexPage = ({data}) => {
             <SectionFullSplit
               type="dark"
               articleBkgColourRgba="101,60,75,1"
+              imagePosition="end"
               textImagePosition="right-to-left"
               sectionTitle="so what do I do?"
               asideImage="home-services.jpg"

@@ -10,14 +10,14 @@ const SectionFullSplit = (props) => {
                 <h2>{props.sectionTitle}</h2>
                 {props.children}
                 </article>
-                <aside className={props.imageSize}>
+                <aside className={props.imageSize} style={{alignContent: props.imagePosition}}>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
             </>
             }
             {props.textImagePosition === 'right-to-left' && 
             <>
-                <aside className={props.imageSize}>
+                <aside className={props.imageSize} style={{alignContent: props.imagePosition}}>
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
                 <article className={props.type}>
