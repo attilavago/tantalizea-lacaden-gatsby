@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import {Link, useStaticQuery} from 'gatsby';
 import Layout from "../components/layout/layout.js";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
@@ -9,6 +9,21 @@ import SectionHalfSplit from "../components/sectionHalfSplit/sectionHalfSplit.js
 import SectionFullSplit from "../components/sectionFullSplit/sectionFullSplit.js";
 
 const PortfolioPage = () => {
+const data = useStaticQuery(graphql`
+    query {
+        allContentfulPortfolioSection (sort: {order: DESC}) {
+            edges {
+                node {
+                    title
+                    slug
+                    content
+                    image
+                }
+            }
+        }
+    }
+`)
+
     return (
         <Layout>
             <SectionFullSplit
