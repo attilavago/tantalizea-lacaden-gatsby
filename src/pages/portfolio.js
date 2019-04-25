@@ -11,13 +11,11 @@ import SectionFullSplit from "../components/sectionFullSplit/sectionFullSplit.js
 const PortfolioPage = () => {
 const data = useStaticQuery(graphql`
     query {
-        allContentfulPortfolioSection (sort: {order: DESC}) {
+        allContentfulPortfolioSection {
             edges {
                 node {
                     title
                     slug
-                    content
-                    image
                 }
             }
         }
@@ -26,6 +24,11 @@ const data = useStaticQuery(graphql`
 
     return (
         <Layout>
+            {data.allContentfulPortfolioSection.edges.map((edge) => {
+                return (
+                    <p>{edge.node.title}</p>
+                )
+            })}
             <SectionFullSplit
               type="light"
               articleBkgColourRgba="255,255,255,1"
