@@ -5,7 +5,7 @@ import Styles from './header.module.scss';
 const Header = () => {
     return (
         <header className={Styles.appHeader}>
-            <h1><Link title="Tantalizea Creative Designs" to="/"><img role="presentation" src="tantalizea-creative-designs-logo.svg" alt=""/></Link></h1>
+            <h1><Link title="Tantalizea Creative Designs" to="/"><img role="presentation" src="../tantalizea-creative-designs-logo.svg" alt=""/></Link></h1>
             <nav>
                 <ul>
                     <li><Link to="/about">About</Link></li>
