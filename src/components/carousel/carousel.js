@@ -14,27 +14,30 @@ const Carousel = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         swipe: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        initialSlide: Math.floor( Math.random() * 3),
     };
     return (
         <section className={Styles.carousel}>
             <Slider {...settings}>
                 <Quote>
                     <blockquote>
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        1 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </blockquote>
                     <p>jack pierce</p>
                     <p>director of marketing</p>
                 </Quote>
                 <Quote>
                     <blockquote>
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        2 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </blockquote>
                     <p>jack pierce</p>
                     <p>director of marketing</p>
                 </Quote>
                 <Quote>
                     <blockquote>
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        3 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </blockquote>
                     <p>jack pierce</p>
                     <p>director of marketing</p>
