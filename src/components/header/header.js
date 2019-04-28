@@ -10,7 +10,7 @@ const Header = () => {
                 <ul>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
+                    <li><a href="https://medium.com/@tantalizea" aria-label="Blog opens in a new tab." target="_blank">Blog</a></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul> 
             </nav>

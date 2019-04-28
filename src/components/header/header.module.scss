@@ -1,17 +1,20 @@
 .appHeader {
     display: grid;
     grid-template-columns: 200px auto;
-    padding: 10px;
     border-bottom: 2px solid #D0D0D0;
     position: fixed;
     background: white;
     width: 100vw;
-    margin-top: -80px;
+    margin-top: -70px;
     padding-left: 40px;
     padding-right: 40px;
     box-sizing: border-box;
     z-index: 999;
+    h1 {
+        padding-top: 10px;
+    }
     nav {
+        padding-top: 1px;
         display: grid;
         grid-auto-columns: 100%;
         justify-items: end;
@@ -23,10 +26,19 @@
             li {
                 text-align: center;
                 list-style-type: none;
+                display: grid;
+                align-content: center;
                 a {
                     text-transform: uppercase;
                     text-decoration: none;
                     color: #727374;
+                }
+                a[aria-current="page"] {
+                    color: #5D3E4B;
+                    border-bottom: 2px solid #5D3E4B;
+                    height: 70px;
+                    line-height: 70px;
+                    box-sizing: border-box;
                 }
             }
         }
