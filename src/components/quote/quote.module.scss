@@ -27,3 +27,13 @@
         margin-top: -15px;
     }
 }
+
+@media (max-width: 520px) {
+    .quote {
+        padding-left: 10%;
+        padding-right: 10%;
+        blockquote {
+            padding: 0;
+        }
+    }
+}

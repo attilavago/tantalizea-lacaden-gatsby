@@ -28,3 +28,10 @@
         }
     }
 }
+
+@media (max-width: 520px) {
+    .SectionTriple {
+        grid-template-columns: auto;
+        height: 600px;
+    }
+}

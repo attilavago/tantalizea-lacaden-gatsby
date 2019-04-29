@@ -19,3 +19,14 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 520px) {
+    .sectionHalfSplit {
+        grid-template-columns: 100%;
+        grid-template-rows: max-content;
+        article {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+}
