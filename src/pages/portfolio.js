@@ -8,6 +8,7 @@ import SectionFull from '../components/sectionFull/sectionFull';
 import SectionHalfSplit from "../components/sectionHalfSplit/sectionHalfSplit.js";
 import SectionFullSplit from "../components/sectionFullSplit/sectionFullSplit.js";
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer';
+import SectionTriple from '../components/sectionTriple/sectionTriple.js';
 
 const PortfolioPage = () => {
 const data = useStaticQuery(graphql`
@@ -72,6 +73,7 @@ const data = useStaticQuery(graphql`
             >
               <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </SectionFullSplit>
+            <SectionTriple/>
         </Layout>
     )
 }
