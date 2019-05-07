@@ -139,7 +139,7 @@ h2 {
     display: grid;
     img {
         width: 100% !important;
-        height: 100% !important;
+        height: 100%;
         object-fit: cover !important;
     }
 }
@@ -154,4 +154,10 @@ main {
 
 .slick-dots li {
     width: 10px;
+}
+
+@media (max-width: 520px) {
+    .tall img {
+            height: auto;
+        }
 }

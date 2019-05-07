@@ -23,24 +23,24 @@ const Carousel = () => {
             <Slider {...settings}>
                 <Quote>
                     <blockquote>
-                        1 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Great communication skills and very helpful. She was able to create a logo and provide very clean work with excellent turn around time. I highly recommend her services.
                     </blockquote>
-                    <p>jack pierce</p>
-                    <p>director of marketing</p>
+                    <p>josue padilla</p>
+                    <p>Security Systems Installer at EZ-Connect Inc.</p>
                 </Quote>
                 <Quote>
                     <blockquote>
-                        2 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Excellent job. Did a further design without my asking. Looks great. The time pressure was on with this job and she delivered. Highly recommended.
                     </blockquote>
-                    <p>jack pierce</p>
-                    <p>director of marketing</p>
+                    <p>client</p>
+                    <p>From Bondi Beach, Australia</p>
                 </Quote>
                 <Quote>
                     <blockquote>
-                        3 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Tantalizea&#39;s detailed research gives her insight into client needs and allows her to craft targeted communications that resonate with audiences.
                     </blockquote>
                     <p>jack pierce</p>
-                    <p>director of marketing</p>
+                    <p>Director of Marketing at Schuckman Realty Inc.</p>
                 </Quote>
             </Slider>
         </section>

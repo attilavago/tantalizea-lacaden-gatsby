@@ -1,7 +1,6 @@
 .sectionHalfSplit {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    max-height: 600px;
     min-height: 600px;
     overflow: hidden;
     article {
@@ -9,6 +8,8 @@
         box-sizing: border-box;
         padding-left: 25%;
         padding-right: 25%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     aside {
         display: grid;
@@ -27,6 +28,14 @@
         article {
             padding-left: 10%;
             padding-right: 10%;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        aside {
+            height: 400px;
+            img {
+                height: auto;
+            }
         }
     }
 }
