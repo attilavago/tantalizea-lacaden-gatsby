@@ -65,3 +65,20 @@
         }
     }
 }
+
+@media (max-width: 520px) {
+    .footer {
+        height: 300px;
+        grid-template-columns: 100%;
+        .callToAction {
+            grid-template-columns: 100%; 
+            p {
+                text-align: center;
+                height: 75px;
+            }
+        }
+    }
+    button {
+        background-color: #FEFFFF;
+    }
+}
