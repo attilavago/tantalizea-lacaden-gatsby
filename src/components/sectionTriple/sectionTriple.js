@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './SectionTriple.module.scss';
+import Styles from './sectionTriple.module.scss';
 import Button from '../button/button';
 
 const SectionTriple = () => {
