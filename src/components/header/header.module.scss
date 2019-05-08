@@ -10,6 +10,9 @@
     padding-right: 40px;
     box-sizing: border-box;
     z-index: 999;
+    .mobileMenuTrigger {
+        display: none;
+    }
     h1 {
         padding-top: 10px;
     }
@@ -45,5 +48,35 @@
     }
     img {
         width: 180px;
+    }
+}
+
+@media (max-width: 520px) {
+    .appHeader {
+        .mobileMenuTrigger {
+            display: block;
+            text-align: right;
+            font-size: 50px;
+        }
+        nav {
+            display: none;
+            ul {
+                display: block;
+                grid-template-columns: auto;
+                width: 200px;
+                position: fixed;
+                top: 70px;
+                background: rgba(255,255,255,0.9);
+                right: 0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                li {
+                    height: 40px;
+                    a[aria-current="page"] {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
     }
 }
