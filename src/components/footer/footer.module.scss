@@ -68,17 +68,57 @@
 
 @media (max-width: 520px) {
     .footer {
-        height: 300px;
-        grid-template-columns: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        nav {
+            order: 1;
+            ul > li {
+                text-align: center;
+                width: 100%;
+                margin-right: 0;
+                padding-top: 5px;
+                .styledIcon {
+                    margin-right: 0;
+                    svg {
+                        font-size: 18px;
+                    }
+                }
+            }
+            ul > li:first-child {
+                display: grid;
+                width: 50%;
+                direction: rtl;
+                a {
+                    margin-right: 5px;
+                }
+            }
+            ul > li:nth-child(2) {
+                float: none;
+                margin-bottom: 10px;
+                a {
+                    left: 5px;
+                    position: relative;
+                }
+            }
+        }
         .callToAction {
             grid-template-columns: 100%; 
             p {
                 text-align: center;
-                height: 75px;
+                padding-bottom: 20px;
+                padding-right: 0;
+                font-size: 23px;
+            }
+            button {
+                background-color: #FEFFFF;
+                justify-self: center;
+                width: 220px;
+                margin-bottom: 30px;
+                margin-top: 30px;
             }
         }
-    }
-    button {
-        background-color: #FEFFFF;
     }
 }
