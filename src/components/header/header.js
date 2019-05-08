@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'gatsby';
 import Styles from './header.module.scss';
 import { FaTimes } from 'react-icons/fa';
-import { IoIosClose } from 'react-icons/io';
+import { IoIosClose, IoIosMenu } from 'react-icons/io';
 
 class Header extends Component {
     state = {
@@ -13,7 +13,7 @@ class Header extends Component {
         return (
             <header className={Styles.appHeader}>
                 <h1><Link title="Tantalizea Creative Designs" to="/"><img role="presentation" src="../tantalizea-creative-designs-logo.svg" alt=""/></Link></h1>
-                <button onClick={() => this.setState({isMenuOpen: !this.state.isMenuOpen})} className={Styles.mobileMenuTrigger}><IoIosClose/></button>
+                <button onClick={() => this.setState({isMenuOpen: !this.state.isMenuOpen})} className={Styles.mobileMenuTrigger}><IoIosMenu/></button>
                 <nav style={{display: this.state.isMenuOpen ? 'none' : 'block'}}>
                     <ul>
                         <li><Link to="/about">About</Link></li>
