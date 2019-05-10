@@ -1,0 +1,17 @@
+.fourOhFour {
+    background: url('../../static/marble.jpg');
+    background-size: cover;
+    padding-bottom: 50px;
+    display: grid;
+    height: calc(100vh - 187px);
+    align-content: center;
+    text-align: center;
+    img {
+        display: grid;
+        width: 300px;
+        margin: 0 auto;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
