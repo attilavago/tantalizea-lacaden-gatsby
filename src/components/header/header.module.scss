@@ -65,17 +65,22 @@
             ul {
                 display: block;
                 grid-template-columns: auto;
-                width: 200px;
+                width: 100%;
+                height: 100%;
                 position: fixed;
                 top: 70px;
-                background: rgba(255,255,255,0.9);
+                background: #5D3E4B;
                 right: 0;
                 padding-top: 20px;
                 padding-bottom: 20px;
                 li {
+                    a {
+                        color: white;
+                    }
                     height: 40px;
                     a[aria-current="page"] {
                         border-bottom: none;
+                        color: #727374;
                     }
                 }
             }
