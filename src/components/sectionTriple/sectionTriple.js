@@ -7,17 +7,17 @@ const SectionTriple = () => {
         <section className={Styles.SectionTriple}>
             <div>
                 <span>
-                    <h4>item 1</h4>
+                    <h4>Read Blog</h4>
                 </span>
             </div>
             <div>
                 <span>
-                    <h4>item 2</h4>
+                    <h4>Download Freebie</h4>
                 </span>
             </div>
             <div>
                 <span>
-                    <h4>item 3</h4>
+                    <h4>Schedule Meeting</h4>
                 </span>
             </div>
         </section>
