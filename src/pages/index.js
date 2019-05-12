@@ -22,9 +22,9 @@ const IndexPage = ({data}) => {
               overlayColourRgba="255,255,255,0.8"
               backgroundImageName="home-main.jpg"
               sectionTitle="Form. Function. Beauty."
-              sectionBlurb="I design high quality, functional graphics for startups. I provide inspiration and education for aspiring designers."
-              buttonText="learn more"
-            />
+            >
+              <p>I design high quality, functional graphics for startups. I provide inspiration and education for aspiring designers.</p>
+            </SectionFull>
             <SectionHalfSplit
               textImagePosition="left-to-right"
               sectionTitle="Hello, I’m Tantalizea."

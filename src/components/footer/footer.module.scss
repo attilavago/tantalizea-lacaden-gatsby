@@ -2,8 +2,8 @@
     background: #5D3E4B;
     display: grid;
     grid-template-columns: 500px auto;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 7%;
+    padding-right: 7%;
     height: 67px;
     align-content: center;
     nav {
@@ -27,7 +27,7 @@
         li {
             float: left;
             margin-right: 20px;
-            padding-top: 0;
+            padding-top: 20px;
             a {
                 color: #727374;
                 text-decoration: none;
@@ -57,7 +57,9 @@
             margin-bottom: 0;
             height: 32px;
             color: #FEFFFF;
-            font-family: 'PlayFairItalic', 'serif';
+            font-family: 'esonnes-display';
+            font-style: italic;
+            font-weight: 400;
             text-align: right;
             padding-right: 20px;
             justify-self: end;

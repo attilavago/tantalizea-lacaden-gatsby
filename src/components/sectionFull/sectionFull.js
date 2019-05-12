@@ -9,8 +9,7 @@ const SectionFull = (props) => {
             style={{backgroundImage: ` linear-gradient(rgba(${props.overlayColourRgba}), rgba(${props.overlayColourRgba})),url(${props.backgroundImageName})`}}>
             <div className={props.type}>
                 <h2>{props.sectionTitle}</h2>
-                <p>{props.sectionBlurb}</p>
-                <Button buttonText={props.buttonText}/>
+                {props.children}
             </div>
         </section>
     )

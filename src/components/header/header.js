@@ -28,7 +28,7 @@ class Header extends Component {
                 <button onClick={this.toggleHandler} className={Styles.mobileMenuTrigger}><IoIosMenu/></button>
                 <nav style={{display: this.state.isMenuOpen ? 'grid' : 'none'}}>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
+                        {/* <li><Link to="/about">About</Link></li> */}
                         <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><a href="https://medium.com/@tantalizea" aria-label="Blog opens in a new tab." target="_blank">Blog</a></li>
                         <li><Link to="/contact">Contact</Link></li>

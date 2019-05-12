@@ -1,12 +1,12 @@
 .carousel {
-    min-height: 500px;
+    min-height: 400px;
     padding-top: 50px;
     box-sizing: border-box;
     .slick-dots li.slick-active button:before {
         color: red !important;
     }
     div > div > div > div {
-        height: 400px;
+        height: auto;
     }
 }
 
@@ -15,8 +15,15 @@
         box-sizing: content-box;
         grid-template-columns: 100%;
         grid-template-rows: max-content;
+        min-height: 430px;
         .slick-dots {
             bottom: 25px;
         }
+    }
+}
+
+@media (max-width: 320px) {
+    .carousel {
+        min-height: 580px;
     }
 }

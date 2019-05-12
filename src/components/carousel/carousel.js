@@ -14,8 +14,8 @@ const Carousel = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         swipe: true,
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 6000,
         initialSlide: Math.floor( Math.random() * 3),
     };
     return (

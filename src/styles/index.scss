@@ -73,6 +73,56 @@
     src: url(./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
 }
 
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * essonnes-display:
+ *   - http://typekit.com/eulas/00000000000000003b9ada63
+ *   - http://typekit.com/eulas/00000000000000003b9ada64
+ *   - http://typekit.com/eulas/00000000000000003b9ada66
+ *   - http://typekit.com/eulas/00000000000000003b9ada67
+ * open-sans:
+ *   - http://typekit.com/eulas/000000000000000000011c34
+ *   - http://typekit.com/eulas/000000000000000000011c35
+ *   - http://typekit.com/eulas/000000000000000000011c38
+ *   - http://typekit.com/eulas/000000000000000000011c3b
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-25 18:13:47 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=xbg5fli&ht=tk&f=14541.14542.14545.14548.28131.28132.28134.28135&a=2064635&app=typekit&e=css");
+
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/b73f74/00000000000000003b9ada63/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/b73f74/00000000000000003b9ada63/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/b73f74/00000000000000003b9ada63/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/379c63/00000000000000003b9ada66/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/379c63/00000000000000003b9ada66/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/379c63/00000000000000003b9ada66/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/d134d3/00000000000000003b9ada67/27/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d134d3/00000000000000003b9ada67/27/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d134d3/00000000000000003b9ada67/27/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+.tk-open-sans { font-family: "open-sans",sans-serif; }
+.tk-essonnes-display { font-family: "essonnes-display",serif; }
+
 // theming specific to tantalizea.com
 html, body {
     background-color: #FEFFFF;
@@ -95,8 +145,10 @@ p {
 }
 
 h1, h2, h4 {
-    font-family: 'PlayFairItalic', 'serif';
+    font-family: 'esonnes-display';
+    font-weight: 400;
     text-transform: capitalize;
+    font-style: italic;
     color: #505152;
 }
 
