@@ -8,19 +8,16 @@ const SectionTriple = () => {
             <div>
                 <span>
                     <h4>item 1</h4>
-                    <Button buttonText="test"/>
                 </span>
             </div>
             <div>
                 <span>
                     <h4>item 2</h4>
-                    <Button buttonText="test"/>
                 </span>
             </div>
             <div>
                 <span>
                     <h4>item 3</h4>
-                    <Button buttonText="test"/>
                 </span>
             </div>
         </section>
