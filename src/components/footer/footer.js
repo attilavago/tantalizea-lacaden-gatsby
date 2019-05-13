@@ -11,8 +11,9 @@ const Footer = () => {
                 <ul>
                     <li><a className={Styles.styledIcon} href="https://www.instagram.com/sweetspero/" target="_blank"><FaInstagram/></a></li>
                     <li><a className={Styles.styledIcon} href="https://www.facebook.com/tantalizea/" target="_blank"><FaFacebookF/></a></li>
-                    <li><Link to="">terms of use</Link></li>
-                    <li><Link to="">privacy policy</Link></li>
+                    <li className={Styles.desktopOnly}><Link to="">terms of use</Link></li>
+                    <li className={Styles.desktopOnly}><Link to="">privacy policy</Link></li>
+                    <li className={Styles.mobileOnly}><Link to="">terms of use</Link> | <Link to="">privacy policy</Link></li>
                     <li><p className={Styles.copyright}>© 2019 Tantalizea Lacaden</p></li>
                 </ul>
             </nav>

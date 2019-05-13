@@ -1,4 +1,7 @@
 .footer {
+    .mobileOnly {
+        display: none;
+    }
     background: #5D3E4B;
     display: grid;
     grid-template-columns: 500px auto;
@@ -70,6 +73,13 @@
 
 @media (max-width: 520px) {
     .footer {
+        .mobileOnly {
+            display: block;
+            color: #727374;
+        }
+        .desktopOnly {
+            display: none;
+        }
         height: auto;
         display: flex;
         flex-direction: column;
