@@ -54,12 +54,34 @@
 
 @media (max-width: 520px) {
     .appHeader {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: 150px auto;
+        h1 {
+            a {
+                img {
+                    width: 130px;
+                }
+            }
+        }
         .mobileMenuTrigger {
             display: block;
             text-align: right;
-            font-size: 50px;
+            font-size: 32px;
             background: transparent;
             border: none;
+            height: 55px;
+            padding-top: 10px;
+            color: #5D3E4B;
+            span {
+                font-size: 20px;
+                font-weight: 400;
+                display: inline-block;
+                top: -8px;
+                position: relative;
+                font-family: 'OpenSansLight';
+                padding-right: 5px;
+            }
         }
         nav {
             display: none;
@@ -69,7 +91,7 @@
                 width: 100%;
                 height: 100%;
                 position: fixed;
-                top: 70px;
+                top: 58px;
                 background: #5D3E4B;
                 right: 0;
                 padding-top: 20px;

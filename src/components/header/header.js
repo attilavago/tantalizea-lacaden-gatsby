@@ -25,7 +25,7 @@ class Header extends Component {
         return (
             <header className={Styles.appHeader}>
                 <h1><Link title="Tantalizea Creative Designs" to="/"><img role="presentation" src="../tantalizea-creative-designs-logo.svg" alt=""/></Link></h1>
-                <button onClick={this.toggleHandler} className={Styles.mobileMenuTrigger}><IoIosMenu/></button>
+                <button onClick={this.toggleHandler} className={Styles.mobileMenuTrigger}><span>menu</span><IoIosMenu/></button>
                 <nav style={{display: this.state.isMenuOpen ? 'grid' : 'none'}}>
                     <ul>
                         {/* <li><Link to="/about">About</Link></li> */}
