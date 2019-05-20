@@ -16,7 +16,6 @@ const IndexPage = ({data}) => {
                 <meta charSet="utf-8" />
                 <title>{data.site.siteMetadata.title}</title>
                 <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
-                <script async type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
             </Helmet>
             <SectionFull
               type="light" 
