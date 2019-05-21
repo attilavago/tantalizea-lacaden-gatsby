@@ -1,0 +1,17 @@
+.ContactPage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 650px;
+    max-height: max-content;
+    article {
+        align-self: center;
+        box-sizing: border-box;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    > div {
+        align-self: center; 
+    }
+}

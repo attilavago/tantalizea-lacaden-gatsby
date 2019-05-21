@@ -208,6 +208,14 @@ main {
     width: 10px;
 }
 
+/* 
+CALENDLY OVERRIDES
+*/
+
+iframe .legacy-branding {
+    display: none !important;
+}
+
 @media (max-width: 520px) {
     .tall img {
             height: auto;

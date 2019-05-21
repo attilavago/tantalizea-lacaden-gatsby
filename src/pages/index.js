@@ -44,10 +44,10 @@ const IndexPage = ({data}) => {
             <SectionFullSplit
               type="dark"
               articleBkgColourRgba="101,60,75,1"
-              imagePosition="end"
+              imagePosition="center"
               textImagePosition="right-to-left"
               sectionTitle="how can i help you?"
-              asideImage="home-services.jpg"
+              asideImage="ONE-business-card.png"
               asideImageAltText="Tantalizea leaning against the wall."
             >
               <p>Capturing the attention of your target audience requires eye-catching visuals
