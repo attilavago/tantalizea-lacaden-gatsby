@@ -11,6 +11,30 @@
     justify-content: center;
     align-content: center;
     article {
+        form {
+            label {
+                visibility: hidden;
+            }
+            input {
+                border: 2px solid #5d3e4b;
+                height: 30px;
+                width: 100%;
+                padding: 5px;
+                box-sizing: border-box;
+                text-transform: uppercase;
+                color: #5d3e4b;
+                font-family: 'OpenSansBold', 'sans-serif';
+            }
+            input[type="submit"]{
+                background: #5d3e4b;
+                color: white;
+                font-family: 'OpenSansBold', 'sans-serif';
+                text-transform: uppercase;
+            }
+            div {
+                padding: 0;
+            }
+        }
         width: 300px;
         background: white;
         height: 400px;
@@ -27,13 +51,34 @@
         p {
             color: #505152;
             font-family: 'OpenSansRegular', 'sans-serif';
+            text-align: center;
+            margin-bottom: 0;
         }
         div {
+            div {
+                padding: 0;
+                height: 40px;
+            }
+            .clear {
+                margin-top: -20px;
+            }
             h3 {
                 margin-bottom: 20px;
+                text-align: center;
             }
             padding: 50px;
             padding-top: 10px;
         }
     }
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #5d3e4b;  
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #5d3e4b;  
+}
+  
+::placeholder {
+    color: #5d3e4b;  
 }
