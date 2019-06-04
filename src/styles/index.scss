@@ -161,6 +161,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+.desktop-only {
+    display: grid !important;
+}
+
+.mobile-only {
+    display: none !important;
+}
+
 .light {
     p {
         color: #727374;
@@ -221,6 +229,12 @@ iframe .legacy-branding {
 }
 
 @media (max-width: 520px) {
+    .mobile-only {
+        display: grid !important;
+    }
+    .desktop-only {
+        display: none !important;
+    }
     .tall img {
             height: auto;
         }

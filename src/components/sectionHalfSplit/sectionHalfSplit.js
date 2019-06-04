@@ -6,24 +6,30 @@ const SectionHalfSplit = (props) => {
         <section className={Styles.sectionHalfSplit}>
             {props.textImagePosition === 'left-to-right' && 
             <>
+                <aside className="mobile-only">
+                    <img src={props.asideImage} alt={props.asideImageAltText}/>
+                </aside>
                 <article>
                 <h2>{props.sectionTitle}</h2>
                 {props.children}
                 </article>
-                <aside>
+                <aside className="desktop-only">
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
             </>
             }
             {props.textImagePosition === 'right-to-left' && 
             <>
-                <aside>
+                <aside className="desktop-only">
                     <img src={props.asideImage} alt={props.asideImageAltText}/>
                 </aside>
                 <article>
                 <h2>{props.sectionTitle}</h2>
                 {props.children}
                 </article>
+                <aside className="mobile-only">
+                    <img src={props.asideImage} alt={props.asideImageAltText}/>
+                </aside>
             </>
             }
         </section>
